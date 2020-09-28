@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Server port="8006" shutdown="SHUTDOWN">
+
+...
+
+<Connector port="8090" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+
+...
+
+<Engine name="Catalina" defaultHost="localhost" jvmRoute="server2">
+
+...
+
+</Server>
